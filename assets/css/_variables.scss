@@ -1,0 +1,101 @@
+////////// COLOR SYSTEM //////////
+$blue: #00aeef;
+$indigo: #6610f2;
+$purple: #ab8ce4;
+$pink: #E91E63;
+$red: #ff0017;
+$orange: #fb9678;
+$yellow: #ffd500;
+$green: #3bd949;
+$teal: #58d8a3;
+$cyan: #57c7d4;
+$black: #000;
+$white: #ffffff;
+$white-smoke: #f4f4f4;
+$ghost-white: #f7fafc;
+$violet: #41478a;
+$darkslategray: #2e383e;
+$dodger-blue: #3498db;
+$gray-600:#757575;
+$gray-700:#616161;
+$blue-teal-gradient: linear-gradient(120deg, #00e4d0, #5983e8);
+$blue-teal-gradient-light: linear-gradient(120deg, rgba(0, 228, 208, 0.7), rgba(89, 131, 232, 0.7));
+$theme-colors: ( primary: #308ee0, secondary: #e5e5e5, success: #00ce68, info: #8862e0, warning: #ffaf00, danger: #e65251, light: #f3f5f6, dark: #424964);
+$colors: ( blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red, orange: $orange, yellow: $yellow, green: $green, teal: $teal, cyan: $cyan, white: $white, white-smoke: #f3f5f6, gray: $gray-600, gray-light: #8ba2b5, gray-lightest: #f7f7f9, gray-dark: #292b2c);
+$social-colors: ( twitter: #1da1f2, facebook: #3b579d, google: #dc4a38, linkedin: #0177b4, pinterest: #cc2127, youtube: #e52d27, github: #333333, behance: #1769ff, dribbble: #ea4c89, reddit: #ff4500);
+////////// COLOR SYSTEM //////////
+////////// TEMPLATE VARIABLES //////////
+$content-bg: #f2f8f9;
+$footer-bg: $content-bg;
+$footer-color: color(dark);
+$border-color: #f2f2f2;
+////////// TEMPLATE VARIABLES //////////
+////////// FONTS //////////
+$type-1: 'Poppins',
+sans-serif;
+$type-2: $type-1;
+$default-font-size: 13px;
+$text-muted: #c2c2c2;
+$body-color: #212529;
+////////// FONT VARIABLES //////////
+////////// SIDEBAR ////////
+$sidebar-width-lg: 255px;
+$sidebar-width-mini: 185px;
+$sidebar-width-icon: 70px;
+$sidebar-light-bg: $white;
+$sidebar-light-menu-color: #4a4a4a;
+$sidebar-light-menu-active-bg: #fafbfc;
+$sidebar-light-menu-active-color: theme-color(primary);
+$sidebar-light-menu-hover-bg: $sidebar-light-menu-active-bg;
+$sidebar-light-menu-hover-color: $sidebar-light-menu-color;
+$sidebar-light-submenu-color: $sidebar-light-menu-color;
+$sidebar-light-submenu-hover-bg: initial;
+$sidebar-light-submenu-hover-color: #000;
+$sidebar-light-category-color: #999999;
+$sidebar-light-menu-icon-color: $sidebar-light-menu-color;
+$sidebar-light-profile-name-color: #404852;
+$sidebar-light-profile-title-color: #8d9498;
+$sidebar-dark-bg: #161a27;
+$sidebar-dark-menu-color: #a0a0a0;
+$sidebar-dark-menu-active-bg: lighten($sidebar-dark-bg, 5%);
+$sidebar-dark-menu-active-color: $white;
+$sidebar-dark-menu-hover-bg: $sidebar-dark-menu-active-bg;
+$sidebar-dark-menu-hover-color: $sidebar-dark-menu-color;
+$sidebar-dark-submenu-color: $sidebar-dark-menu-color;
+$sidebar-dark-submenu-hover-bg: initial;
+$sidebar-dark-submenu-hover-color: #000;
+$sidebar-dark-category-color: #999999;
+$sidebar-dark-menu-icon-color: #404852;
+$sidebar-dark-profile-name-color: #404852;
+$sidebar-dark-profile-title-color: #8d9498;
+$sidebar-menu-font-size: 12px;
+$sidebar-icon-size: 16px;
+$sidebar-menu-padding: 16px 35px;
+$nav-link-height: 52px;
+$sidebar-submenu-padding: 0 0 0 4rem;
+$sidebar-submenu-font-size: $sidebar-menu-font-size;
+$sidebar-submenu-item-padding: .75rem 1rem;
+$sidebar-icon-font-size: .9375rem;
+$sidebar-arrow-font-size: .625rem;
+$sidebar-profile-bg: transparent;
+$sidebar-profile-padding: 0rem 1.625rem 2.25rem 1.188rem;
+$sidebar-mini-menu-padding: .8125rem 1rem .8125rem 1rem;
+$sidebar-icon-only-menu-padding: .5rem 1.625rem .5rem 1.188rem;
+$sidebar-icon-only-submenu-padding: 0 0 0 1.5rem;
+$sidebar-icon-only-submenu-width: 200px;
+$rtl-sidebar-submenu-padding: 0 3.45rem 0 0;
+///////// NAVBAR ////////
+$navbar-height: 63px;
+$navbar-light-color: #202339;
+$navbar-font-size: $sidebar-menu-font-size;
+$navbar-icon-font-size: 1.25rem;
+////////// MEASUREMENT AND PROPERTY VARIABLES //////////
+$boxed-container-width: 1200px;
+$border-property: 1px solid $border-color;
+$card-spacing-y: 1.875rem;
+$card-padding-y: 1.88rem;
+$card-padding-x: 1.81rem;
+$grid-gutter-width: 25px;
+$action-transition-duration: 0.25s;
+$action-transition-timing-function: ease;
+////////// OTHER VARIABLES //////////
